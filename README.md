@@ -261,7 +261,6 @@ All sensitive keys and configuration details are securely stored in the `apikey.
   ```python
   TMDB_API_KEY = "your_tmdb_api_key_here"
   MONGO_CONNECTION_STRING = "your_mongo_connection_string_here"
-  GROQ_API_KEY = "your_groq_api_key_here"
   ```
 
 ## How to Run the Application
@@ -274,6 +273,7 @@ All sensitive keys and configuration details are securely stored in the `apikey.
    cd backend
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+   export GROQ_API_KEY=<your_groq_api_key_here>
    ```
 
 2. **Install Dependencies**:
